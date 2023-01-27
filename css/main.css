@@ -1,0 +1,26 @@
+.photo {
+    position: relative;
+    width: 638px;
+    height: 1080px;
+    background: url("./../images/cat.jpg");
+    background-position: -478px 0px;
+    background-size: 243%;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+
+.photo__text {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 638px;
+    height: 111px;
+    bottom: 0px;
+    background-color: black;
+}
+
+.photo > .photo__text > span {
+    font-size: 56px;
+    color: white;
+}
