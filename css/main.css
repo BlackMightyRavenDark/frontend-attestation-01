@@ -9,7 +9,7 @@
     overflow: hidden;
 }
 
-.photo__text {
+.photo__text-wrapper {
     position: absolute;
     display: flex;
     justify-content: center;
@@ -20,7 +20,7 @@
     background-color: black;
 }
 
-.photo > .photo__text > span {
+.photo > .photo__text-wrapper > span {
     font-size: 56px;
     color: white;
 }
