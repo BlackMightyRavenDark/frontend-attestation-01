@@ -1,3 +1,10 @@
+.card {
+    display: flex;
+    flex-wrap: nowrap;
+    width: 1920px;
+    height: 1080px;
+}
+
 .photo {
     position: relative;
     width: 638px;
@@ -23,4 +30,27 @@
 .photo > .photo__text-wrapper > span {
     font-size: 56px;
     color: white;
+}
+
+.info-container {
+    width: 1282px;
+    height: 1080px;
+}
+
+.info {
+    margin-left: 70px;
+}
+
+.info__name-city {
+    margin-top: 40px;
+    font-weight: 500;
+}
+
+.name-city__name {
+    margin-bottom: 20px;
+    font-size: 48px;
+}
+
+.name-city__city {
+    font-size: 24px;
 }
