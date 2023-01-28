@@ -92,3 +92,14 @@
     background-color: #414141;
     color: white;
 }
+
+.info__about {
+    width: 1111px;
+    margin-top: 50px;
+    font-size: 32px;
+}
+
+.card > .info-container > .info > .info__about > p {
+    margin-top: 20px;
+    text-indent: 40px;
+}
