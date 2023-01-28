@@ -1,0 +1,5 @@
+@font-face {
+    font-family: 'Roboto Meduim';
+    src: local('Roboto Meduim'), url("./../fonts/Roboto-Medium.ttf") format("ttf");
+    font-weight: 500;
+}
