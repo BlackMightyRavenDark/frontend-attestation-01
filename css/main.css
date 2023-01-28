@@ -103,3 +103,36 @@
     margin-top: 20px;
     text-indent: 40px;
 }
+
+.info__contact-form {
+    display: grid;
+    grid-template-rows: repeat(2, 68px);
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: "A B" "C C";
+    gap: 20px;
+    width: 702px;
+    margin-top: 50px;
+}
+
+.contact-form__email {
+    grid-area: A;
+}
+
+.contact-form__message {
+    grid-area: B;
+}
+
+.card > .info-container > .info > .info__contact-form > * {
+    border-radius: 11px;
+    font-size: 32px;
+}
+
+.card > .info-container > .info > .info__contact-form > input {
+    padding-left: 10px;
+}
+
+.card > .info-container > .info > .info__contact-form > button {
+    grid-area: C;
+    background-color: black;
+    color: white;
+}
