@@ -65,3 +65,30 @@
     gap: 30px;
     margin-top: 50px;
 }
+
+.card > .info-container > .info > .info__technologies > span {
+    margin-bottom: 20px;
+}
+
+.info__technologies {
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    font-size: 32px;
+}
+
+.info__technology-list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.technology-item {
+    width: 186px;
+    text-align: center;
+    padding: 14px 55px;
+    border-radius: 45px;
+    background-color: #414141;
+    color: white;
+}
