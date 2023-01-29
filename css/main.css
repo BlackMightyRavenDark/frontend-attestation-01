@@ -66,7 +66,7 @@
     margin-top: 50px;
 }
 
-.card > .info-container > .info > .info__technologies > span {
+.card > .info-container > .info > section > .info__technologies > span {
     margin-bottom: 20px;
 }
 
@@ -99,7 +99,7 @@
     font-size: 32px;
 }
 
-.card > .info-container > .info > .info__about > p {
+.card > .info-container > .info > section > .info__about > p {
     margin-top: 20px;
     text-indent: 40px;
 }
@@ -122,16 +122,16 @@
     grid-area: B;
 }
 
-.card > .info-container > .info > .info__contact-form > * {
+.card > .info-container > .info > section > .info__contact-form > * {
     border-radius: 11px;
     font-size: 32px;
 }
 
-.card > .info-container > .info > .info__contact-form > input {
+.card > .info-container > .info > section > .info__contact-form > input {
     padding-left: 10px;
 }
 
-.card > .info-container > .info > .info__contact-form > button {
+.card > .info-container > .info > section > .info__contact-form > button {
     grid-area: C;
     background-color: black;
     color: white;
