@@ -148,3 +148,17 @@
     background-color: black;
     color: white;
 }
+
+.card > .info-container > .info > section > .info__social > img:hover {
+    cursor: pointer;
+}
+
+.technology-item:hover {
+    cursor: pointer;
+    background-color: blue
+}
+
+.card > .info-container > .info > section > .info__contact-form > button:hover {
+    cursor: pointer;
+    background-color: blue;
+}
