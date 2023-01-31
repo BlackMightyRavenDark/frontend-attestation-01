@@ -263,8 +263,9 @@
 
     .photo {
         position: relative;
-        width: 400px;
-        background-position: -344px 0px;
+        width: 430px;
+        height: 777px;
+        background-position: -375px 0px;
     }
 
     .photo > .photo__text-wrapper {
@@ -273,7 +274,7 @@
     }
 
     .card__background {
-        background-position: 0px 1240px;
+        background-position: 0px 1290px;
     }
 
     .info {
