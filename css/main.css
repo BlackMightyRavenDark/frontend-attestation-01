@@ -160,7 +160,7 @@
     background-color: blue;
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-device-width: 1000px) {
     .card {
         width: 992px;
         height: 724px;
@@ -251,7 +251,7 @@
     }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-device-width: 600px) {
     .card {
         width: 540px;
         height: unset;
