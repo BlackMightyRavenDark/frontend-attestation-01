@@ -33,7 +33,7 @@
     background-color: black;
 }
 
-.photo > .photo__text-wrapper > span {
+.photo__text-wrapper > span {
     font-size: 56px;
     color: white;
 }
@@ -73,7 +73,7 @@
     margin-top: 50px;
 }
 
-.card > .info > section > .info__technologies > span {
+.info__technologies > span {
     margin-bottom: 20px;
 }
 
@@ -106,7 +106,7 @@
     font-size: 32px;
 }
 
-.card > .info > section > .info__about > p {
+.info__about > p {
     margin-top: 20px;
     text-indent: 40px;
 }
@@ -128,16 +128,16 @@
     grid-area: B;
 }
 
-.card > .info > section > .info__contact-form > input {
+.info__contact-form > input {
     border-radius: 11px;
 }
 
-.card > .info > section > .info__contact-form > input::placeholder {
+.info__contact-form > input::placeholder {
     padding-left: 10px;
     font-size: 32px;
 }
 
-.card > .info > section > .info__contact-form > button {
+.info__contact-form > button {
     text-align: center;
     grid-area: C;
     font-size: 32px;
@@ -146,7 +146,7 @@
     color: white;
 }
 
-.card > .info > section > .info__social > img:hover {
+.info__social > img:hover {
     cursor: pointer;
 }
 
@@ -155,7 +155,7 @@
     background-color: blue
 }
 
-.card > .info > section > .info__contact-form > button:hover {
+.info__contact-form > button:hover {
     cursor: pointer;
     background-color: blue;
 }
@@ -177,11 +177,11 @@
         background-size: 265%;
     }
 
-    .photo > .photo__text-wrapper {
+    .photo__text-wrapper {
         width: 372px;
     }
 
-    .photo > .photo__text-wrapper > span {
+    .photo__text-wrapper > span {
         font-size: 32px;
     }
 
@@ -206,11 +206,7 @@
         margin-top: 30px;
     }
 
-    .card > .info > section > .info__technologies > span {
-        font-size: 24px;
-    }
-
-    .card > .info > section > .info__technologies > .info__technology-list {
+    .info__technologies > span {
         font-size: 24px;
     }
 
@@ -220,6 +216,7 @@
 
     .technology-item {
         width: unset;
+        font-size: 24px;
     }
 
     .technology-item:nth-child(3) {
@@ -239,17 +236,17 @@
         font-size: 20px;
     }
 
-    .card > .info > section > .info__contact-form {
+    .info__contact-form {
         margin: 20px 10px 0px 0px;
         grid-template-rows: repeat(2, 48px);
         grid-template-columns: 1fr 1fr;
     }
 
-    .card > .info > section > .info__contact-form > input::placeholder {
+    .info__contact-form > input::placeholder {
         font-size: 24px;
     }
 
-    .card > .info > section > .info__contact-form > button {
+    .info__contact-form > button {
         font-size: 24px;
     }
 }
@@ -264,22 +261,22 @@
         align-items: center;
     }
 
-    .card > section > .photo {
+    .photo {
         position: relative;
         width: 400px;
         background-position: -344px 0px;
     }
 
-    .card > section > .photo > .photo__text-wrapper {
+    .photo > .photo__text-wrapper {
         width: 100%;
         height: 65px;
     }
 
-    .card > .card__background {
+    .card__background {
         background-position: 0px 1240px;
     }
 
-    .card > .info {
+    .info {
         width: 430px;
         margin: 20px 0px;
     }
@@ -288,17 +285,17 @@
         display: block;
     }
 
-    .card > .info > section > .info__contact-form {
+    .info__contact-form {
         margin: 20px 0px 0px 0px;
         grid-template-columns: repeat(2, 200px);
         grid-template-rows: repeat(2, 42px);
     }
 
-    .card > .info > section > .info__contact-form > input::placeholder {
+    .info__contact-form > input::placeholder {
         font-size: 16px;
     }
 
-    .card > .info > section > .info__contact-form > button {
+    .info__contact-form > button {
         font-size: 16px;
     }
 }
