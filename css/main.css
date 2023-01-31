@@ -133,18 +133,20 @@
     grid-area: B;
 }
 
-.card > .info-container > .info > section > .info__contact-form > * {
+.card > .info-container > .info > section > .info__contact-form > input {
     border-radius: 11px;
-    font-size: 32px;
 }
 
-.card > .info-container > .info > section > .info__contact-form > input {
+.card > .info-container > .info > section > .info__contact-form > input::placeholder {
     padding-left: 10px;
+    font-size: 32px;
 }
 
 .card > .info-container > .info > section > .info__contact-form > button {
     text-align: center;
     grid-area: C;
+    font-size: 32px;
+    border-radius: 11px;
     background-color: black;
     color: white;
 }
@@ -216,7 +218,11 @@
         margin-top: 30px;
     }
 
-    .card > .info-container > .info > section > .info__technologies > * {
+    .card > .info-container > .info > section > .info__technologies > span {
+        font-size: 24px;
+    }
+
+    .card > .info-container > .info > section > .info__technologies > .info__technology-list {
         font-size: 24px;
     }
 
@@ -242,29 +248,20 @@
     }
 
     .info__about > p {
-        margin-right: 10px;
         font-size: 20px;
     }
 
     .card > .info-container > .info > section > .info__contact-form {
-        box-sizing: border-box;
-        margin-top: 20px;
-        padding-right: 20px;
+        margin: 20px 10px 0px 0px;
         grid-template-rows: repeat(2, 48px);
         grid-template-columns: 1fr 1fr;
-        margin: 20px 20px 0px 20px;
-    }
-
-    .card > .info-container > .info > section > .info__contact-form > * {
-        font-size: 24px;
-    }
-
-    .card > .info-container > .info > section > .info__contact-form > input {
-        width: 272px;
-        height: 48px;
     }
 
     .card > .info-container > .info > section > .info__contact-form > input::placeholder {
+        font-size: 24px;
+    }
+
+    .card > .info-container > .info > section > .info__contact-form > button {
         font-size: 24px;
     }
 }
@@ -308,20 +305,10 @@
         display: block;
     }
 
-    .card > .info-container > .info > section > .info__contact-form > * {
-        padding: 0px;
-        font-size: 16px;
-    }
-
     .card > .info-container > .info > section > .info__contact-form {
-        padding: 0px;
         margin: 20px 0px 0px 0px;
         grid-template-columns: repeat(2, 200px);
         grid-template-rows: repeat(2, 42px);
-    }
-
-    .card > .info-container > .info > section > .info__contact-form > input {
-        width: unset;
     }
 
     .card > .info-container > .info > section > .info__contact-form > input::placeholder {
