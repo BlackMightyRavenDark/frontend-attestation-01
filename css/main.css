@@ -4,6 +4,7 @@
 }
 
 .card {
+    position: relative;
     display: flex;
     flex-wrap: nowrap;
     width: 1920px;
@@ -37,20 +38,14 @@
     color: white;
 }
 
-.info-container {
-    position: relative;
-    width: 100%;
-    min-width: 1282px;
-}
-
-.info-container__bkg {
+.card__background {
     position: absolute;
     width: 100%;
     height: 100%;
     z-index: -1;
     background: url("./../images/code.jpg");
     opacity: 0.3;
-    background-position: 0px 594px;
+    background-position: 620px 590px;
     background-repeat: no-repeat;
 }
 
@@ -78,7 +73,7 @@
     margin-top: 50px;
 }
 
-.card > .info-container > .info > section > .info__technologies > span {
+.card > .info > section > .info__technologies > span {
     margin-bottom: 20px;
 }
 
@@ -111,7 +106,7 @@
     font-size: 32px;
 }
 
-.card > .info-container > .info > section > .info__about > p {
+.card > .info > section > .info__about > p {
     margin-top: 20px;
     text-indent: 40px;
 }
@@ -133,16 +128,16 @@
     grid-area: B;
 }
 
-.card > .info-container > .info > section > .info__contact-form > input {
+.card > .info > section > .info__contact-form > input {
     border-radius: 11px;
 }
 
-.card > .info-container > .info > section > .info__contact-form > input::placeholder {
+.card > .info > section > .info__contact-form > input::placeholder {
     padding-left: 10px;
     font-size: 32px;
 }
 
-.card > .info-container > .info > section > .info__contact-form > button {
+.card > .info > section > .info__contact-form > button {
     text-align: center;
     grid-area: C;
     font-size: 32px;
@@ -151,7 +146,7 @@
     color: white;
 }
 
-.card > .info-container > .info > section > .info__social > img:hover {
+.card > .info > section > .info__social > img:hover {
     cursor: pointer;
 }
 
@@ -160,7 +155,7 @@
     background-color: blue
 }
 
-.card > .info-container > .info > section > .info__contact-form > button:hover {
+.card > .info > section > .info__contact-form > button:hover {
     cursor: pointer;
     background-color: blue;
 }
@@ -169,6 +164,10 @@
     .card {
         width: 992px;
         height: 724px;
+    }
+
+    .card__background {
+        background-position: 370px 414px;
     }
 
     .photo {
@@ -184,17 +183,6 @@
 
     .photo > .photo__text-wrapper > span {
         font-size: 32px;
-    }
-
-    .info-container {
-        width: 620px;
-        min-width: unset;
-    }
-
-    .info-container__bkg {
-        width: 100%;
-        height: 730px;
-        background-position-y: 416px;
     }
 
     .info {
@@ -218,11 +206,11 @@
         margin-top: 30px;
     }
 
-    .card > .info-container > .info > section > .info__technologies > span {
+    .card > .info > section > .info__technologies > span {
         font-size: 24px;
     }
 
-    .card > .info-container > .info > section > .info__technologies > .info__technology-list {
+    .card > .info > section > .info__technologies > .info__technology-list {
         font-size: 24px;
     }
 
@@ -251,17 +239,17 @@
         font-size: 20px;
     }
 
-    .card > .info-container > .info > section > .info__contact-form {
+    .card > .info > section > .info__contact-form {
         margin: 20px 10px 0px 0px;
         grid-template-rows: repeat(2, 48px);
         grid-template-columns: 1fr 1fr;
     }
 
-    .card > .info-container > .info > section > .info__contact-form > input::placeholder {
+    .card > .info > section > .info__contact-form > input::placeholder {
         font-size: 24px;
     }
 
-    .card > .info-container > .info > section > .info__contact-form > button {
+    .card > .info > section > .info__contact-form > button {
         font-size: 24px;
     }
 }
@@ -287,35 +275,30 @@
         height: 65px;
     }
 
-    .card > .info-container {
-        position: relative;
-        width: 440px;
+    .card > .card__background {
+        background-position: 0px 1240px;
     }
 
-    .card > .info-container > .info-container__bkg {
-        background-position-y: 490px;
-        height: 100%;
-    }
-
-    .card > .info-container > .info {
-        width: 100%;
+    .card > .info {
+        width: 430px;
+        margin: 20px 0px;
     }
 
     .technology-item:nth-child(3) {
         display: block;
     }
 
-    .card > .info-container > .info > section > .info__contact-form {
+    .card > .info > section > .info__contact-form {
         margin: 20px 0px 0px 0px;
         grid-template-columns: repeat(2, 200px);
         grid-template-rows: repeat(2, 42px);
     }
 
-    .card > .info-container > .info > section > .info__contact-form > input::placeholder {
+    .card > .info > section > .info__contact-form > input::placeholder {
         font-size: 16px;
     }
 
-    .card > .info-container > .info > section > .info__contact-form > button {
+    .card > .info > section > .info__contact-form > button {
         font-size: 16px;
     }
 }
